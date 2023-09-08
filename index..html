@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Telefonica</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="main..css">
+</head>
+<body>
+        <header>
+            <img src="https://www.centralestelefonicaspanama.com/telefono.png" width="200" alt="Telefonica" />
+        <h1>Agenda Telefonica</h1>
+        </header>
+        <form id="form-contato">
+            <div>
+                <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <div>
+            </div>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+            <div>
+            <div class="button">
+            <button type="submit" id="enviar">Enviar</button>
+            </div>
+          </form>
+          <table id="tabela-contatos">
+            <thead >
+              <tr>
+                <th>Nomes</th>
+                <th>Telefones</th>
+              </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+          </table>
+        <script src="main..js"></script>
+</body>
+</html>
